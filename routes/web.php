@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::view('/product', 'product');
+Route::view('/product', 'product')->name('product');
 
-Route::view('/home', 'home')->middleware('auth');
+Route::view('/home', 'home')->middleware('auth')->name('home');
+Route::view('/details', 'details')->middleware('auth')->name('details');
