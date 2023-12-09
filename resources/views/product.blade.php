@@ -211,7 +211,7 @@
                                         <button type="submit" class="mt-8 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Add to bag</button>
 
                                         <p class="absolute left-4 top-4 text-center sm:static sm:mt-8">
-                                            <a href="{{ route('login') }}" class="font-medium text-indigo-600 hover:text-indigo-500">View full details</a>
+                                            <a href="{{ route('details') }}" class="font-medium text-indigo-600 hover:text-indigo-500">View full details</a>
                                         </p>
                                     </form>
                                 </section>
